@@ -28,4 +28,4 @@ jobs: # a collection of steps
           command: 'sudo npm install -g json'
       - run: # run snyk delta - run snyk test and pipe snyk delta
           name: snyk delta
-          command: snyk test --json --print-deps | snyk-delta
+          command: snyk test --json --print-deps 
